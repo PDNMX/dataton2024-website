@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jueces on Datatón Anticorrupción</title>
+    <link>http://localhost:1313/jueces/</link>
+    <description>Recent content in Jueces on Datatón Anticorrupción</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Wed, 15 Nov 2023 19:33:28 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/jueces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rosa Cristina Buendía</title>
+      <link>http://localhost:1313/jueces/rosa-buendia/</link>
+      <pubDate>Wed, 15 Nov 2023 19:33:28 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/rosa-buendia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Roberto de Michele</title>
+      <link>http://localhost:1313/jueces/roberto-michele/</link>
+      <pubDate>Wed, 15 Nov 2023 19:30:22 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/roberto-michele/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>León David Zayas Ornelas</title>
+      <link>http://localhost:1313/jueces/leon-zayas/</link>
+      <pubDate>Wed, 15 Nov 2023 19:26:46 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/leon-zayas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>María de los Ángeles Estrada González</title>
+      <link>http://localhost:1313/jueces/maria-estrada/</link>
+      <pubDate>Tue, 14 Nov 2023 16:22:00 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/maria-estrada/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Luis Danton</title>
+      <link>http://localhost:1313/jueces/luis-danton/</link>
+      <pubDate>Tue, 14 Nov 2023 16:19:47 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/luis-danton/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Julio Sabines Chesterking</title>
+      <link>http://localhost:1313/jueces/julio-sabines/</link>
+      <pubDate>Tue, 14 Nov 2023 16:16:38 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/julio-sabines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jorge Alberto Alatorre Flores</title>
+      <link>http://localhost:1313/jueces/jorge-alatorre/</link>
+      <pubDate>Tue, 14 Nov 2023 16:07:10 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/jorge-alatorre/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claudia Adriana Valdés López</title>
+      <link>http://localhost:1313/jueces/claudia-valdes/</link>
+      <pubDate>Tue, 14 Nov 2023 16:03:43 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/claudia-valdes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Andrea Barenque Hernández</title>
+      <link>http://localhost:1313/jueces/andrea-barenque/</link>
+      <pubDate>Mon, 28 Nov 2022 21:37:09 -0600</pubDate>
+      <guid>http://localhost:1313/jueces/andrea-barenque/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
