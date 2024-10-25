@@ -1044,5 +1044,34 @@ p.text-center.h1 {
 }
 
 body {
-    background: url(../img/world.png) calc(80% + 140%) 45% no-repeat;
-}
+    position: relative;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height:  calc(100% - 0px); 
+    background: url(../img/world.png) calc(80% + 30%) 80% no-repeat;
+    background-size:contain;
+    opacity: 0;
+    animation: moveAndFade 5s infinite cubic-bezier(0.25, 0.1, 0.25, 1);    ;
+  }
+  
+  @keyframes moveAndFade {
+    0% {
+      background-position: calc(80% + 20%) 80%;
+      opacity: 0;
+    }
+    50% {
+
+      opacity: 1;
+    }
+    100% {
+      background-position: 0% 80%;
+      opacity: 0;
+    }
+  }
+  
