@@ -1042,3 +1042,7 @@ p.text-center.h1 {
     color: #9f77b3;
     font-weight: bold;
 }
+
+body {
+    background: url(../img/world.png) calc(80% + 140%) 45% no-repeat;
+}
