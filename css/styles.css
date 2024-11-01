@@ -18,7 +18,7 @@ html {
   }
 
 .page {
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .text-muted {
@@ -31,6 +31,7 @@ html {
 
 p {
     line-height: 1.5;
+    text-align: justify;
 }
 
 p.large {
@@ -302,7 +303,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 30px;
 }
 
@@ -314,8 +315,8 @@ header {
     justify-content: center;
     align-items: center;
     @media(min-width:768px) {
-        grid-template-columns: 55% 45%;
-        grid-column-gap: 40px;
+        grid-template-columns: 60% 40%;
+        grid-column-gap: 30px;
     }   
     text-align: center;
     margin-bottom: 2em;
@@ -354,9 +355,11 @@ header {
     font-weight: bold;
 }
 
-section {
-    padding-top: 1.4em;    
+section, .clients {
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
+
 section h2.section-heading {
     font-size: 40px;
     text-align: center;
@@ -662,6 +665,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    max-width: 220px;
 }
 
 .team-member p {
@@ -1022,31 +1026,12 @@ article#faq h3 {
     font-weight: bold;
 }
 
-.logo {
-    text-align: center;
-}
 
-.logo img {
-    max-width: 100%;
-    /* margin: 0 auto; */
-}
 
-.logo h1 {
-    margin: 4rem;
-    font-size: 4rem;
-    font-weight: bold;
-    color: #9f77b3;
-}
+/* ESTILOS DATATÓN 2024 */
 
-p.text-center.h1 {
-    color: #9f77b3;
-    font-weight: bold;
-}
 
-body {
-    position: relative;
-  }
-  
+
   body::before {
     content: "";
     position: absolute;
@@ -1057,8 +1042,22 @@ body {
     background: url(../img/world.png) calc(80% + 30%) 80% no-repeat;
     background-size:contain;
     opacity: 0;
-    animation: moveAndFade 5s infinite cubic-bezier(0.25, 0.1, 0.25, 1);    ;
+    animation: moveAndFade 5s infinite cubic-bezier(0.25, 0.1, 0.25, 1);
+    pointer-events: none;
   }
+
+/*   .btn.btn-primary[href="./participa"] {
+    opacity: 0.65;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #ccc !important; 
+    border-color: #ccc !important;
+    color: #666 !important;
+} */
+
+.canales {
+    display: none;
+}
   
   @keyframes moveAndFade {
     0% {
