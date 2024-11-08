@@ -1059,6 +1059,11 @@ article#faq h3 {
     display: none;
 }
   
+.description {
+    text-align: justify;
+}
+
+
   @keyframes moveAndFade {
     0% {
       background-position: calc(80% + 20%) 80%;
